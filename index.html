@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doc At Service</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash">
+    <div class="splash-content">
+      <h1>DOC AT SERVICE</h1>
+      <div class="heart-animation"></div>
+      <p>Connecting you with the right doctor</p>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🩺 Doc At Service</div>
+    <input type="text" id="searchBar" placeholder="Search doctors..." />
+    <div class="nav-options">
+      <a href="login.html">Login</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="account.html">My Account</a>
+    </div>
+  </nav>
+
+  <!-- Doctors Dashboard -->
+  <main>
+    <h2>Available Doctors</h2>
+    <div class="doctor-list" id="doctorList">
+      <!-- Cards populated dynamically from JS -->
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
